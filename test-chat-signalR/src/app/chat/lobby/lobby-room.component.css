@@ -1,0 +1,19 @@
+﻿header {
+  padding: 7px;
+  background-color: #5b5e6a;
+  color: #f2ebf0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 18px; }
+
+footer {
+  margin-top: 15px; }
+  footer .input-group {
+    display: table-cell;
+    width: 1%; }
+    footer .input-group .login {
+      max-width: 350px;
+      margin: auto; }
+  footer button {
+    margin-top: 15px; }
+

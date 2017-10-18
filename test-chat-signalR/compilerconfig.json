@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "src/app/app.component.css",
+    "inputFile": "src/app/app.component.scss"
+  },
+  {
+    "outputFile": "src/style.css",
+    "inputFile": "src/style.scss"
+  },
+  {
+    "outputFile": "src/app/chat/lobby/lobby-room.component.css",
+    "inputFile": "src/app/chat/lobby/lobby-room.component.scss"
+  },
+  {
+    "outputFile": "src/app/nav/rooms/rooms.component.css",
+    "inputFile": "src/app/nav/rooms/rooms.component.scss"
+  },
+  {
+    "outputFile": "src/app/nav/user-profile/user-profile.component.css",
+    "inputFile": "src/app/nav/user-profile/user-profile.component.scss"
+  },
+  {
+    "outputFile": "src/app/nav/active-users/active-users.component.css",
+    "inputFile": "src/app/nav/active-users/active-users.component.scss"
+  },
+  {
+    "outputFile": "src/app/chat/message/message-item.component.css",
+    "inputFile": "src/app/chat/message/message-item.component.scss"
+  },
+  {
+    "outputFile": "src/app/chat/chat-room/chat-room.component.css",
+    "inputFile": "src/app/chat/chat-room/chat-room.component.scss"
+  }
+]

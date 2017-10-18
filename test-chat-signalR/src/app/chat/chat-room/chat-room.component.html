@@ -1,0 +1,19 @@
+﻿<header>
+    Conversation:
+</header>
+
+<main class="messages">
+    <ng-template #dynamic>
+    </ng-template>
+</main>
+
+<footer class="send-message container-fluid">
+    <form action="#">
+        <div class="input-group">
+            <input type="text" class="form-control input-lg" autofocus  autocomplete="off" [(ngModel)]="message" placeholder="Some text..." name="text">
+            <div class="input-group-btn">
+                <input type="submit" class="btn btn-lg btn-success" Value="Send" (click)="send()" />
+            </div>
+        </div>
+    </form>
+</footer>

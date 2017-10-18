@@ -1,0 +1,18 @@
+﻿.user-profile {
+  padding: 10px 0 10px 7px;
+  position: relative;
+  color: #f2ebf0;
+  background-color: #007c5e; }
+  .user-profile img {
+    margin-right: 5px; }
+  .user-profile span {
+    font-size: 22px; }
+
+.user-profile .fa-bars {
+  font-size: 22px; }
+
+header {
+  color: #f2ebf0;
+  background-color: #003f30;
+  font-size: 18px; }
+

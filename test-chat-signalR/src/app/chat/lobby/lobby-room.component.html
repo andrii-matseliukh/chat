@@ -1,0 +1,20 @@
+﻿<header>
+    Lobby:
+</header>
+
+<main class="messages">
+    <ng-template #dynamic>
+    </ng-template>
+</main>
+
+<footer class="send-message container-fluid">
+    <form action="#">
+        <div class="input-group">
+            <div class="login">
+                <input type="text" [(ngModel)]="userName" autofocus autocomplete="off" class="form-control input-lg" autocomplete="off" placeholder="User Name..." name="text">
+                <input class="btn btn-lg btn-success btn-block" type="submit" value="Enter Chat" (click)="enterChat()" />
+            </div>
+
+        </div>
+    </form>
+</footer>

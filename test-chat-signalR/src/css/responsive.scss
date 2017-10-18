@@ -1,0 +1,24 @@
+@media (min-width: $screen-sm-min) { 
+    body {
+        display: flex;
+    }
+
+    aside.primary-nav {
+        height: 100%;
+        position:fixed;
+        min-width: 350px;
+        overflow: auto;
+    }
+
+    .nav-item h4:hover {
+            cursor: initial;
+            background-color: initial;
+    }
+
+    
+
+    .chat-body {
+        margin-left: 350px;
+    }
+
+}

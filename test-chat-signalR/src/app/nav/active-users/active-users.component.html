@@ -1,0 +1,21 @@
+﻿<div class="active-users-section nav-item">
+    <header>
+        <h4 class="hidden-xs"> Active users:</h4>
+        <h4 class="visible-xs" data-toggle="collapse" data-target=".room__active-users">
+            Active users: <span class="caret"></span>
+        </h4>
+    </header>
+
+    <div class="room__active-users navbar-collapse collapse">
+
+        <ul class="nav">
+            <li *ngFor="let item of users">
+                <img src="src/default-img.jpg" alt="user logo">
+                <span>{{item}}</span>
+            </li>
+            
+        </ul>
+
+    </div>
+
+</div>

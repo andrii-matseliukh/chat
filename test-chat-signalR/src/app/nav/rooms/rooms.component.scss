@@ -1,0 +1,39 @@
+﻿@import "../../../css/stylesheets/bootstrap/_variables.scss";
+@import "../../../css/common";
+
+.rooms-section .fa-caret-down {
+
+    font-size: $big-nav-font-size;
+}
+
+header {
+    color: $color;
+    background-color: darken( $brand-base, 10% );
+    font-size: $medium-nav-font-size;
+}
+
+.nav-item {
+    border: 20px solid #ff0000;
+    border: none;
+    @include box-shadow;
+    position: relative;
+
+    h4 {
+        padding: 7px;
+        margin: 0;
+
+        &:hover {
+            cursor: pointer;
+            background-color: darken( $brand-base, 8% );
+        }
+    }
+}
+
+.rooms {
+    border: none;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}

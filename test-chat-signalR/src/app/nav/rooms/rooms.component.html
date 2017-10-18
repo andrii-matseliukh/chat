@@ -1,0 +1,18 @@
+﻿<div class="rooms-section nav-item">
+
+    <header>
+        <h4 class="hidden-xs">Rooms:</h4>
+        <h4 class="visible-xs" data-toggle="collapse" data-target=".rooms">
+            Rooms: <span class="caret"></span>
+        </h4>
+    </header>
+
+    <nav class="rooms navbar-collapse collapse">
+        <div class="list-group">
+            <a routerLink="/lobby" *ngIf="!IsUserSet" class="list-group-item" routerLinkActive="active">Lobby</a>
+            <a routerLink="/friend" [class.disabled]="!IsUserSet ? true : null" class="list-group-item" routerLinkActive="active">Friends<span *ngIf="IsUserSet" class="badge">{{friendsCount}}</span></a>
+            <a routerLink="/family" [class.disabled]="!IsUserSet ? true : null" class="list-group-item" routerLinkActive="active">Family<span *ngIf="IsUserSet" class="badge">{{familyCount}}</span></a>
+        </div>
+    </nav>
+
+</div>
