@@ -12,7 +12,7 @@ namespace test_chat_signalR.Controllers
         {
             //Some fuck
             ViewBag.Title = "Home Page";
-
+            //more commit
             return View();
         }
     }
