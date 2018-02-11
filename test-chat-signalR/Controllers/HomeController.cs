@@ -10,6 +10,7 @@ namespace test_chat_signalR.Controllers
     {
         public ActionResult Index()
         {
+            //Some fuck
             ViewBag.Title = "Home Page";
 
             return View();
